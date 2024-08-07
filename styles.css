@@ -1,0 +1,14 @@
+h1{
+    color: darkorange;
+    text-align: center;
+}
+h2{
+    color: rgb(68, 75, 205);
+    text-align: center;
+}
+h3{
+    color: rgb(170, 136, 42);
+}
+video{
+    padding: 2% 6% 0% 6%;color:  aqua;border-radius: 20%;
+}
