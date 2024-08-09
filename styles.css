@@ -11,8 +11,9 @@ h3{
     color: rgb(170, 136, 42);
 }
 video{
-    padding: 8%;color:  aqua;border-radius: 20%;box-align: center;
+    color:  aqua;border-radius: 20%;box-align: center;
 }
 .video-container {
-    margin-left: 50px;
+    margin-top: 10px;
+    margin-left: 80px;
 }
