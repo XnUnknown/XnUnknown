@@ -27,6 +27,7 @@ video{
     background-color: #800000;
     width: 100%;
     height: 20%;
+    position: fixed;
     align-content: center;
 }
 .head2{
@@ -45,12 +46,14 @@ video{
     font-weight: bold;
     background: linear-gradient(to right, #f0ff1c, #ff0e0e);
    background-clip: text;
+   -webkit-background-clip: text;
     color: transparent;
 }
 .gr1{
     font-weight: bold;
     background: linear-gradient(to right, #ffffff, #dc10d2);
    background-clip: text;
+   -webkit-background-clip: text;
     color: transparent;
 }
 .head4{
