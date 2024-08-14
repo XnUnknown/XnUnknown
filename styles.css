@@ -5,7 +5,6 @@ h1{
 }
 h2{
     text-align: center;
-    font-size: 48px;
     font-weight: bold;
     background: linear-gradient(to right, #f0ff1c, #0affff);
    background-clip: text;
@@ -15,22 +14,33 @@ h3{
     color: rgb(170, 136, 42);
     text-align: center;
 }
-video{
-    width: 300px;
-    height: 300px;
-    border-radius: 100%;
+video{width: 280px;
+    margin-right: 20px;
 }
-.video-container {
-    margin-top: 0%;
-    margin-left:0%;
+.bg{
+    background-color: #982B1C;
+    height: fit-content;
+}
+.r90{
+    rotate: -90deg;
+    margin-top: 93px;
+    margin-bottom: 0%;
+    padding: 0%;
+}
+.r90d{
+    rotate: -90deg;
+    width: fit-content;
+    margin-left: 93px;
+    margin-bottom: 0%;
+    padding: 0%;
 }
 .head{
     background-color: #800000;
     width: 100%;
-    height: fit-content;
+    height: 70px;
     position: fixed;
-    align-items: center;
     align-content: center;
+    z-index: 2;
 }
 .head2{
     background-color: #982B1C;
@@ -40,9 +50,7 @@ video{
 }
 .head3{
     background-color: #DAD4B5;
-    width: 100%;
-    height: fit-content;
-    align-content:center;
+
 }
 .gr{
     font-weight: bold;
@@ -64,4 +72,124 @@ video{
     height: fit-content;
     align-content:center;
 }
+body{
+    background-color:#982B1C;
+}
+.card{
+    height: fit-content;
+    width: 300px;
+   
+}
+.cardl{
+    height: fit-content;
+    
+   
+}
+.card > p{font-weight: bold;
+    background: linear-gradient(to right, #0008ff, #dc10d2);
+   background-clip: text;
+   -webkit-background-clip: text;
+    color: transparent;
+    text-align: justify;
+}
+.cardl > p{font-weight: bold;
+    background: linear-gradient(to right, #0008ff, #dc10d2);
+   background-clip: text;
+   -webkit-background-clip: text;
+    color: transparent;
+    text-align: justify;
 
+}
+.card > video{width:168.7px;
+    height: 300px;
+
+}
+.card1 > video{
+    width: 300px;
+    height: 168.7px;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float: right;
+}
+@media (min-width:771px){
+.box{
+       display: flex;
+       gap:20px;
+    }
+}
+@media(max-width:770px)
+{
+    .card{
+        float: left;
+        height: fit-content;
+        width: 168px;
+       
+    }
+    .cardl{
+        float: left;
+        height: fit-content;
+        width: 300px;
+    }
+    .box{
+        display: grid;               /* Enable grid layout */
+        place-items: center;         /* Center both horizontally and vertically */    
+       }
+       .head{
+        background-color: #800000;
+        width: 100%;
+        height: fit-content;
+        position: fixed;
+        align-content: center;
+        z-index: 2;
+    }
+}
+    
+
+.endbar{
+    clear: both;
+    height: fit-content;
+    padding-bottom: 10px;
+}
+.c1{
+    background-color: #800000;
+    margin: 0%;padding-top: 1px;
+}
+.c2{
+    background-color: #982B1C;
+    margin: 0%;padding-top: 1px;padding-bottom: 50px;
+}
+.c3{
+    background-color: #DAD4B5;
+    margin: 0%;padding-top: 1px;padding-bottom: 50px;
+}
+.c4{
+    background-color: #F2E8C6;
+    margin: 0%;padding-top: 1px;padding-bottom: 50px;
+}
+.glow{
+    color: #ffffff; /* Set text color */
+    text-shadow: 0 0 10px rgb(255, 255, 255),   /* Blue outer glow */
+                 0 0 20px rgb(255, 255, 255),
+                 0 0 30px rgb(255, 255, 255),
+                 0 0 40px rgb(255, 255, 255),
+                 0 0 50px rgb(255, 255, 255);
+}
+.centertext{
+    text-align: justify
+}
+.logo{
+    display: grid;
+    place-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 20px;
+    z-index: 4;
+}
+.arrange{
+    display: grid;
+    place-items: center;
+}
