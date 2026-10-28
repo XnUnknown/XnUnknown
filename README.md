@@ -23,7 +23,7 @@ Focus areas:
 - Retrieval-Augmented Generation — hybrid retrieval, reranking, evaluation harnesses, grounded answers with citations
 - Multimodal assistants — vision plus text plus actions
 - Realtime 3D + AI on the web
-- Disciplined DSA with Java and Python
+- Disciplined DSA with Java.
 - Simulation and physics inside Unreal Engine 5
 
 Primary stack: Python, TypeScript, JavaScript, Java, React, Next.js, Node.js, Three.js, Tailwind, Unreal Engine 5.
@@ -95,7 +95,7 @@ Badges pull logos and labels directly. No emoji markers.
 - Multimodal assistants blending vision, text and actions
 - Realtime 3D + AI in the browser
 - Simulation and physics inside Unreal Engine 5
-- Disciplined DSA with Java and Python
+- Disciplined DSA with Java
 
 ## Connect
 
